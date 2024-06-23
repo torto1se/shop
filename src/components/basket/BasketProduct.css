@@ -1,0 +1,108 @@
+.basket-block {
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.left-basket-block {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.basket-product-block {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.basket-product-block:hover {
+    .basket-delete-button {
+        border: 1px solid black;
+        color: black;
+    }
+}
+
+.basket-product-img {
+    height: 175px;
+    width: 125px;
+
+}
+
+.basket-product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px ;
+    margin-right: 15px;
+}
+
+.basket-product-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.basket-product-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.basket-delete-button {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: white;
+    color: white;
+    transition: 0.5s;
+}
+
+.basket-delete-button:active {
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
+    box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(255,255,255,.2);
+}
+
+.right-basket-block {
+    width: 35%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 90px;
+}
+
+.basket-product-count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-all-sum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-product-pay {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.basket-product-pay:hover {
+    opacity: 0.6;
+}
