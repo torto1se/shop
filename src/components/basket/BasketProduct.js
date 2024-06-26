@@ -21,7 +21,7 @@ export default function BasketProduct({ basket, deletFromBasket }) {
                                         <p>{item.name}</p>
                                     </div>
                                     <div className="basket-product-price">
-                                        <p>{item.price} РУБ</p>
+                                        <p>{item.price}&#8381;</p>
                                         <button className="basket-delete-button" onClick={() => deletFromBasket(item)}>Удалить</button>
                                     </div>
                                 </div>

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    margin-top: 70px;
 }
 
 .left-basket-block {
@@ -18,14 +19,15 @@
     margin-bottom: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    background-color: #0a404b;
 }
 
-.basket-product-block:hover {
+/* .basket-product-block:hover {
     .basket-delete-button {
         border: 1px solid black;
         color: black;
     }
-}
+} */
 
 .basket-product-img {
     height: 175px;
@@ -57,18 +59,23 @@
 }
 
 .basket-delete-button {
-    width: 80px;
-    height: 30px;
-    margin-bottom: 20px;
-    padding: 5px;
-    background-color: white;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background-color: black;
     color: white;
-    transition: 0.5s;
+    transition: background-color 0.3s ease;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: inherit;
 }
 
-.basket-delete-button:active {
-    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0));
-    box-shadow: inset 0 0 2px rgba(0,0,0,.2), inset 0 2px 5px rgba(0,0,0,.2), 0 1px rgba(255,255,255,.2);
+
+.basket-delete-button:hover {
+    background-color: #072e36;
 }
 
 .right-basket-block {
@@ -82,6 +89,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 90px;
+    background-color: #0a404b;
 }
 
 .basket-product-count {
@@ -101,6 +109,7 @@
     background-color: black;
     color: white;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .basket-product-pay:hover {

@@ -37,6 +37,7 @@ import React, { useState } from "react"
 import BasketProduct from "./components/basket/BasketProduct";
 import ProductCard from "./components/products/ProductCard";
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 export default function App() {
     const [tab, setTab] = useState("main");
@@ -56,21 +57,22 @@ export default function App() {
             
             {tab === 'main' && (
                 <>
-                  <Footer />
+                    <Main />
+                    <Footer active={tab} onChange={(current) => setTab(current)} />
                 </>
             )}
 
             {tab === 'products' && (
                 <>
                     <center><ProductCard addToBasket={addToBasket}/></center>
-                    <Footer />
+                    <Footer active={tab} onChange={(current) => setTab(current)} />
                 </>
             )}
 
             {tab === 'bucket' &&(
                 <>
                     <BasketProduct basket={basket} deletFromBasket={deletFromBasket} />
-                    <Footer />
+                    <Footer active={tab} onChange={(current) => setTab(current)} />
                 </>
             )}
         </div>

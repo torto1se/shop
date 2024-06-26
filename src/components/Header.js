@@ -6,8 +6,10 @@ import React from 'react';
 export default function Header( {active, onChange}) {
   return (
     <header>
-        <div>
-            <span className='logo'>Магазин игр</span> 
+        <div className='nav_menu'>
+            <span className='logo'>
+              <img className='logo_img' src={'../games/log.png'} alt='logo' isActive={active === 'main'} onClick={() => onChange('main')} />
+            </span> 
             <ul className='nav'>
               <li><button className="route-buttons" isActive={active === 'main'} onClick={() => onChange('main')}>Главная</button></li>
               <li><button className="route-buttons" isActive={active === 'products'} onClick={() => onChange('products')}>Каталог</button></li>
@@ -17,7 +19,7 @@ export default function Header( {active, onChange}) {
                 <li><Link to="/q&a">Вопрос-ответ</Link></li> */}
             </ul>
         </div>
-        <div className='presentation'></div>
+        {/* <div className='presentation'></div> */}
         {/* <Routes>
             <Route path='/catalog' element={<ProductCard />} />
             <Route path='/basket' element={<BasketProduct />} />

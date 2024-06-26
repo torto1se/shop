@@ -50,7 +50,7 @@ header ul.nav li:hover {
   opacity: 0.5;
 }
 
-header .presentation {
+/* header .presentation {
   margin: 50px 0;
   background: url("./img/bg.png") no-repeat;
   width: 100%;
@@ -82,9 +82,62 @@ header .presentation::before {
   width: 300px;
   color: #fff;
   font-weight: 300;
-}
+} */
 
 footer {
   text-align: center;
   margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.613);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.logo_img {
+  width: 60px;
+  cursor: pointer;
+}
+
+
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation {
+  margin: 50px 0;
+  background: url("./img/bg.png") no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center 30%;
+  background-blend-mode: multiply;
+  background-color: #bcbcbc;
+  position: relative;
+}
+
+.presentation::after {
+  content: 'Лучшие игры для Вас';
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+  width: 300px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 39px;
+}
+
+.presentation::before {
+  content: 'по самым низким ценам';
+  position: absolute;
+  bottom: 15px;
+  left: 50px;
+  width: 300px;
+  color: #fff;
+  font-weight: 300;
 }

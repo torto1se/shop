@@ -38,40 +38,40 @@ const clothes = [
         id: 8, name: "Palworld", brand: "Hugo", price: 990, image: "palworld.png", count: 1,
     },
     {
-        id: 9, name: "Кроссовки", brand: "Kappa", price: 8599, image: "https://a.lmcdn.ru/img600x866/M/P/MP002XM08ON5_17791532_1_v1.jpg", count: 1,
+        id: 9, name: "Cyberpunk 2077", brand: "Kappa", price: 2199, image: "cyber.jpg", count: 1,
     },
     {
-        id: 10, name: "Кеды", brand: "Adidas", price: 9999, image: "https://a.lmcdn.ru/img600x866/R/T/RTLACY188501_21659019_1_v1.jpg", count: 1,
+        id: 10, name: "Elden Ring", brand: "Adidas", price: 3599, image: "elden.jpg", count: 1,
     },
     {
-        id: 11, name: "Кроссовки", brand: "Tommy Hilfiger", price: 17699, image: "https://a.lmcdn.ru/img600x866/R/T/RTLADF725101_22288108_1_v1.jpg", count: 1,
+        id: 11, name: "Red Dead Redemption 2", brand: "Tommy Hilfiger", price: 1999, image: "rdr.jpg", count: 1,
     },
     {
-        id: 12, name: "Кроссовки", brand: "Kappa", price: 8499, image: "https://a.lmcdn.ru/img600x866/M/P/MP002XM08W8P_18096962_1_v1.jpg", count: 1,
+        id: 12, name: "The Witcher 3: Wild Hunt", brand: "Kappa", price: 1500, image: "witcher.png", count: 1,
     },
     {
-        id: 13, name: "Ботинки", brand: "Thomas Munz", price: 11999, image: "https://a.lmcdn.ru/img600x866/M/P/MP002XM1RL2O_15534607_1_v2.jpg", count: 1,
+        id: 13, name: "The Last of Us", brand: "Thomas Munz", price: 3600, image: "tlou.png", count: 1,
     },
     {
-        id: 14, name: "Кеды", brand: "Disel", price: 27499, image: "https://a.lmcdn.ru/img600x866/R/T/RTLADH208501_22661562_1_v1.jpg", count: 1,
+        id: 14, name: "Baldur's Gate 3", brand: "Disel", price: 1999, image: "bg3.jpg", count: 1,
     },
     {
-        id: 15, name: "Кроссовки", brand: "Puma", price: 14990, image: "https://a.lmcdn.ru/img600x866/R/T/RTLADC651401_21619936_1_v1.jpg", count: 1,
+        id: 15, name: "The Elder Scrolls V: Skyrim", brand: "Puma", price: 500, image: "skyrim.jpg", count: 1,
     },
     {
-        id: 16, name: "Кеды", brand: "Converse", price: 13999, image: "https://a.lmcdn.ru/img600x866/R/T/RTLADD114301_21717508_1_v1.jpg", count: 1,
+        id: 16, name: "God of War", brand: "Converse", price: 2599, image: "gow.jpg", count: 1,
     },
     {
-        id: 17, name: "Туфли", brand: "Abricot", price: 9390, image: "https://a.lmcdn.ru/img600x866/M/P/MP002XM253VS_19543597_1_v1.jpg", count: 1,
+        id: 17, name: "Marvel's Spider-Man", brand: "Abricot", price: 3000, image: "spider-man.jpg", count: 1,
     },
     {
-        id: 18, name: "Кеды", brand: "Vans", price: 8899, image: "https://a.lmcdn.ru/img600x866/R/T/RTLABJ737106_22066652_1_v1.jpg", count: 1,
+        id: 18, name: "Escape from Tarkov", brand: "Vans", price: 1800, image: "eft.png", count: 1,
     },
     {
-        id: 19, name: "Кроссовки", brand: "Joma", price: 9499, image: "https://a.lmcdn.ru/img600x866/M/P/MP002XM0VBVA_22624037_1_v1.jpg", count: 1,
+        id: 19, name: "Portal 2", brand: "Joma", price: 385, image: "portal.jpg", count: 1,
     },
     {
-        id: 20, name: "Лоферы", brand: "Camper", price: 23799, image: "https://a.lmcdn.ru/img600x866/R/T/RTLADH070201_22490612_1_v1.jpg", count: 1,
+        id: 20, name: "Phasmophobia", brand: "Camper", price: 309, image: "phasmo.jpg", count: 1,
     },
 ]
 
