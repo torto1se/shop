@@ -6,6 +6,7 @@ export default function ProductCard ({addToBasket}) {
 
     return (
         <div>
+            <div style={{textAlign: 'center', fontSize:'35px', margin: '20px'}}>Список товаров:</div>
             <div className="product-block">
                 {clothes.map((clothes) => (
                     <div className="product-card" key={clothes.id}>
