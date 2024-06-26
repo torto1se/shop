@@ -27,12 +27,24 @@ header ul.nav {
   list-style: none;
 }
 
+footer ul {
+  float: right;
+  list-style: none;
+}
+
 header ul.nav li {
   display: inline;
   margin-left: 25px;
   cursor: pointer;
   transition: opacity .2s ease;
 }
+
+footer ul li {
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity .2s ease;
+}
+
 header ul.nav button {
   color: #c6cabe;
   display: inline;
@@ -46,7 +58,24 @@ header ul.nav button {
   font-size: 20px;
 }
 
+footer ul button {
+  color: #c6cabe;
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity .2s ease;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
 header ul.nav li:hover {
+  opacity: 0.5;
+}
+
+footer ul  li:hover {
   opacity: 0.5;
 }
 
@@ -86,17 +115,24 @@ header .presentation::before {
 
 footer {
   text-align: center;
-  margin-top: 100px;
-  background-color: rgba(0, 0, 0, 0.613);
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.573);
   width: 100%;
-  height: 200px;
+  height: 150px;
   display: flex;
   border-radius: 0 0 10px 10px;
 }
 
 
-.logo_img {
-  width: 60px;
+header .logo_img {
+  width: 75px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+footer .logo_img {
+  width: 50px;
+  max-width: 100%;
   cursor: pointer;
 }
 
@@ -140,4 +176,16 @@ footer {
   width: 300px;
   color: #fff;
   font-weight: 300;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
 }

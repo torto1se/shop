@@ -38,6 +38,7 @@ import BasketProduct from "./components/basket/BasketProduct";
 import ProductCard from "./components/products/ProductCard";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Questions from "./components/Questions";
 
 export default function App() {
     const [tab, setTab] = useState("main");
@@ -72,6 +73,12 @@ export default function App() {
             {tab === 'bucket' &&(
                 <>
                     <BasketProduct basket={basket} deletFromBasket={deletFromBasket} />
+                    <Footer active={tab} onChange={(current) => setTab(current)} />
+                </>
+            )}
+            {tab === 'questions' &&(
+                <>
+                    <Questions />
                     <Footer active={tab} onChange={(current) => setTab(current)} />
                 </>
             )}
