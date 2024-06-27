@@ -59,27 +59,23 @@ export default function App() {
             {tab === 'main' && (
                 <>
                     <Main />
-                    {/* <Footer active={tab} onChange={(current) => setTab(current)} /> */}
                 </>
             )}
 
             {tab === 'products' && (
                 <>
                     <center><ProductCard addToBasket={addToBasket}/></center>
-                    {/* <Footer active={tab} onChange={(current) => setTab(current)} /> */}
                 </>
             )}
 
             {tab === 'bucket' &&(
                 <>
                     <BasketProduct basket={basket} deletFromBasket={deletFromBasket} />
-                    {/* <Footer active={tab} onChange={(current) => setTab(current)} /> */}
                 </>
             )}
             {tab === 'questions' &&(
                 <>
                     <Questions />
-                    {/* <Footer active={tab} onChange={(current) => setTab(current)} /> */}
                 </>
             )}
             
