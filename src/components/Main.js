@@ -49,6 +49,7 @@ export default function Main() {
         </div>
       </div>
     </div>
+    <iframe width="560" height="315" style={{marginTop: '50px'}} src="https://www.youtube.com/embed/xx8kQ4s5hCY?si=Wn-UlAN-YQUq7KmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </main>
   )
 }

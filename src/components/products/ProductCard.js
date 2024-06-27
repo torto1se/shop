@@ -1,6 +1,6 @@
 import React from "react";
 import './ProductCard.css';
-import clothes from "./data";
+import games from "./data";
 
 export default function ProductCard ({addToBasket}) {
 
@@ -8,21 +8,20 @@ export default function ProductCard ({addToBasket}) {
         <div>
             <div style={{textAlign: 'center', fontSize:'35px', margin: '20px'}}>Список товаров:</div>
             <div className="product-block">
-                {clothes.map((clothes) => (
-                    <div className="product-card" key={clothes.id}>
-                        <img className="card-img" src={"./games/" + clothes.image} alt="clothe" />
+                {games.map((games) => (
+                    <div className="product-card" key={games.id}>
+                        <img className="card-img" src={"./games/" + games.image} alt="game" />
                         <div className="card-info-top">
                             <strong>
-                                <p className="card-price">{clothes.price}&#8381;</p>
+                                <p className="card-price">{games.price}&#8381;</p>
                             </strong>
                             <div className="card-button">
-                                <button className="button-basket" onClick={() => addToBasket(clothes)}>В корзину</button>
+                                <button className="button-basket" onClick={() => addToBasket(games)}>В корзину</button>
                             </div>
                         </div>
                         <div className="card-footer">
                             <div className="card-info">
-                                {/* <p className="card-text">{clothes.brand}</p> */}
-                                <p className="card-text">{clothes.name}</p>
+                                <p className="card-text">{games.name}</p>
                             </div>
                             
                         </div>

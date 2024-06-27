@@ -1,39 +1,5 @@
-// import React, { useState } from "react";
-// import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import { Routes, Route } from "react-router-dom";
-// import ProductCard from "./components/products/ProductCard";
-// import BasketProduct from "./components/basket/BasketProduct";
-
-// export default function App() {
-//     const [basket, setBasket] = useState([]);
-
-//     const addToBasket = (object) => {
-//         setBasket(changeBasket => [...changeBasket, object]);
-//     }
-
-//     const deletFromBasket = (object) => {
-//         setBasket(changeBasket => changeBasket.filter(item => item !== object));
-//     }
-     
-//     return (
-//       <div className="wrapper">
-//         <Header />
-//         <Routes>
-//             <Route path='/catalog' element={<ProductCard addToBasket={addToBasket} />} />
-//             <Route path='/basket' element={<BasketProduct basket={basket} deletFromBasket={deletFromBasket} />} />
-//             {/* <Route path='/q&a' element={} /> */}
-//         </Routes>
-//         <Footer />
-//       </div>
-//     )
-// };
-
 import React, { useState } from "react"
-
-
-
-
 import BasketProduct from "./components/basket/BasketProduct";
 import ProductCard from "./components/products/ProductCard";
 import Header from "./components/Header";

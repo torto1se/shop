@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer({active, onChange}) {
   return (
-    <footer>
+    <footer style={{position:'relative'}}>
       <div className='footer-logo'>
         <span className='logo'>
           <img className='logo_img' src={'../games/white-logo.png'} alt='logo' isActive={active === 'main'} onClick={() => onChange('main')} />
@@ -17,6 +17,7 @@ export default function Footer({active, onChange}) {
           <li><button className="profile-buttons" isActive={active === 'questions'} onClick={() => onChange('questions')} style={{fontWeight: '300', fontSize: '15px', fontFamily: 'inherit'}}>FAQ</button></li>
         </ul>
       </div>
+      <img src='https://media2.giphy.com/media/Vh1KrUr6Tvl1RFYYk6/giphy.gif?cid=6c09b9528jjafaeoqa40ul77r9pydwbdrnlbathcu5f53q3c&ep=v1_gifs_search&rid=giphy.gif&ct=g' alt='gif'  style={{marginBottom:'50px', width: '100px', position: 'absolute', left: '30%', top: '18%'}} />
     </footer>
   )
 }
